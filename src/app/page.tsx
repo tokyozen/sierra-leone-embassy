@@ -68,6 +68,7 @@ export default function HomePage() {
           alt="Embassy of the Republic of Sierra Leone, Washington D.C."
           fill
           priority
+          sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center 30%" }}
         />
         <div
@@ -184,6 +185,7 @@ export default function HomePage() {
                 src="/images/presidents/Ambassador-Amara-Sheikh-Mohammed-Sowa.jpg"
                 alt="H.E. Ambassador Amara Sheikh Mohammed Sowa"
                 fill
+                sizes="100vw"
                 style={{ objectFit: "cover", objectPosition: "top center" }}
               />
             </div>
@@ -271,6 +273,7 @@ export default function HomePage() {
                     src={item.image}
                     alt={item.title}
                     fill
+                    sizes="100vw"
                     style={{ objectFit: "cover" }}
                   />
                 </div>
@@ -335,6 +338,7 @@ export default function HomePage() {
           src="/images/Services-strip/visa-services.jpg"
           alt=""
           fill
+          sizes="100vw"
           style={{ objectFit: "cover" }}
           aria-hidden="true"
         />
@@ -488,6 +492,7 @@ export default function HomePage() {
                 src="/images/presidents/presidentmaadabio.jpg"
                 alt="H.E. Rtd. Brigadier Dr. Julius Maada Bio — President of the Republic of Sierra Leone"
                 fill
+                sizes="100vw"
                 style={{ objectFit: "cover", objectPosition: "top center" }}
               />
               {/* Gradient overlay at bottom of photo */}

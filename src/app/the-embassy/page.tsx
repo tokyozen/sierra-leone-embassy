@@ -151,6 +151,7 @@ export default function TheEmbassyPage() {
                 src="/images/presidents/Ambassador-Amara-Sheikh-Mohammed-Sowa.jpg"
                 alt="H.E. Ambassador Amara Sheikh Mohammed Sowa"
                 fill
+                sizes="100vw"
                 style={{ objectFit: "cover", objectPosition: "top center" }}
               />
             </div>
@@ -453,6 +454,7 @@ export default function TheEmbassyPage() {
                     src={amb.image}
                     alt={amb.name}
                     fill
+                    sizes="100vw"
                     style={{ objectFit: "cover", objectPosition: "top center" }}
                   />
                 </div>

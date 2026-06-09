@@ -80,6 +80,7 @@ export default function ServicesStrip() {
                   src={svc.bgImage}
                   alt=""
                   fill
+                  sizes="100vw"
                   style={{ objectFit: "cover" }}
                   aria-hidden="true"
                 />

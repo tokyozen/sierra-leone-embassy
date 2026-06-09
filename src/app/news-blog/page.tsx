@@ -219,6 +219,7 @@ export default function NewsBlogPage() {
                       src={article.coverImage}
                       alt={article.title}
                       fill
+                      sizes="100vw"
                       style={{ objectFit: "cover" }}
                     />
                   </div>
@@ -247,6 +248,7 @@ export default function NewsBlogPage() {
                               src={img}
                               alt={`${article.title} — photo ${i + 2}`}
                               fill
+                              sizes="100vw"
                               style={{ objectFit: "cover" }}
                             />
                           </div>
@@ -324,6 +326,7 @@ export default function NewsBlogPage() {
                               src={img}
                               alt={`${article.title} — photo ${i + 2}`}
                               fill
+                              sizes="100vw"
                               style={{ objectFit: "cover" }}
                             />
                           </div>

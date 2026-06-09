@@ -15,6 +15,7 @@ export default function PageHero({ title, subtitle, image }: Props) {
           alt=""
           fill
           priority
+          sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center 30%" }}
         />
       )}
