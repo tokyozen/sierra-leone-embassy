@@ -16,8 +16,8 @@ const articles = [
     date: "July 25, 2025",
     category: "Diplomatic Affairs",
     author: "PEL Koroma, Embassy of Sierra Leone, Washington, DC",
-    coverImage: "/images/blog/Blog_pic1.jpg",
-    gallery: ["/images/blog/Blog_pic2.jpg", "/images/blog/Blog_pic3.jpg"],
+    coverImage: "/images/Blog/Blog_pic1.jpg",
+    gallery: ["/images/Blog/Blog_pic2.jpg", "/images/Blog/Blog_pic3.jpg"],
     body: [
       "His Excellency Ambassador Amara Sheikh Mohammed Sowa has yesterday 24th, July 2025 presented to President Donald J. Trump, President of United States of America his Letter of Accreditation as Ambassador Extraordinary and Plenipotentiary of Sierra Leone to the United States.",
       "Presenting his Letters of Credence and that of the Recall of his Predecessor, Ambassador Amara Sowa conveyed to President Trump on behalf of His Excellency Rtd. Brigadier President Dr. Julius Maada Bio's best wishes for President Trump's continued good health and success in improving the lives of the people of America.",

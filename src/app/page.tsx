@@ -16,7 +16,7 @@ const latestNews = [
     date: "July 25, 2025",
     excerpt:
       "H.E. Ambassador Amara Sheikh Mohammed Sowa presented his Letter of Accreditation to President Donald J. Trump at the White House, highlighting the historic and enduring ties between Sierra Leone and the United States.",
-    image: "/images/blog/Blog_pic1.jpg",
+    image: "/images/Blog/Blog_pic1.jpg",
   },
   {
     id: 1,
