@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Baloo+Da+2:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #454545;
+  --color-teal: #3db0a3;
+  --color-teal-dark: #2d9088;
+  --color-teal-light: #e8f7f6;
+  --color-cream: #f9f7f4;
+  --color-text-dark: #2c2c2c;
+  --color-text-mid: #555555;
+  --color-text-light: #888888;
+
+  --font-sans: "Open Sans", system-ui, sans-serif;
+  --font-heading: "Encode Sans", system-ui, sans-serif;
+  --font-display: "Baloo Da 2", system-ui, sans-serif;
+
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 6px 24px rgba(0, 0, 0, 0.13);
+
+  --max-width-site: 1200px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-text-dark);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    display: inline-block;
+    background-color: var(--color-teal);
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-teal-dark);
+  }
+
+  .btn-outline {
+    display: inline-block;
+    border: 2px solid var(--color-teal);
+    color: var(--color-teal);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+  .btn-outline:hover {
+    background-color: var(--color-teal);
+    color: white;
+  }
+
+  .section-heading {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-navy);
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-divider {
+    width: 4rem;
+    height: 4px;
+    background-color: var(--color-teal);
+    margin-bottom: 1.5rem;
+  }
+
+  .container-site {
+    max-width: var(--max-width-site);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-site {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-site {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+  }
+  .card:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .page-hero {
+    position: relative;
+    width: 100%;
+    background-color: var(--color-navy);
+    overflow: hidden;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+  }
+}
