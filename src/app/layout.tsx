@@ -9,7 +9,11 @@ export const metadata: Metadata = {
     template: "%s | Embassy of Sierra Leone",
   },
   description:
-    "Official website of the Embassy of the Republic of Sierra Leone in Washington, D.C. Serving the United States, Canada, Brazil, and seven other countries.",
+    "Official website of the Embassy of the Republic of Sierra Leone in Washington, D.C. Serving the United States, Canada, and eight other accredited countries.",
+  icons: {
+    icon: "/images/logo/logo.png",
+    apple: "/images/logo/logo.png",
+  },
 };
 
 export default function RootLayout({
