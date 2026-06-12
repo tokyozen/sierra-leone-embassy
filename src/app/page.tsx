@@ -45,7 +45,6 @@ const accreditedCountries = [
   "Jamaica",
   "Trinidad & Tobago",
   "The Bahamas",
-  "Barbados",
   "Guyana",
   "Suriname",
 ];

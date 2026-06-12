@@ -12,31 +12,37 @@ export const metadata: Metadata = {
 const departments = [
   {
     name: "Office of the Ambassador",
-    extension: "Ext. 2220",
-    email: "ambassador@embassyofsierraleone.net",
+    phone: "(202) 939-9265",
+    extension: "Ext. 112",
+    email: "he@embassyofsierraleone.net",
   },
   {
     name: "Consular Section",
-    extension: "Ext. 2221",
+    phone: "(202) 939-9261/62/63",
+    extension: "Ext. 110",
     email: "consular@embassyofsierraleone.net",
   },
   {
     name: "Chancery Administration",
+    phone: "",
     extension: "Ext. 2222",
     email: "admin@embassyofsierraleone.net",
   },
   {
     name: "Trade & Investment Section",
+    phone: "",
     extension: "Ext. 2223",
     email: "trade@embassyofsierraleone.net",
   },
   {
     name: "Press & Public Affairs",
+    phone: "",
     extension: "Ext. 2224",
     email: "press@embassyofsierraleone.net",
   },
   {
     name: "General Enquiries",
+    phone: "",
     extension: "Ext. 2225",
     email: "info@embassyofsierraleone.net",
   },
@@ -320,7 +326,7 @@ export default function TheEmbassyPage() {
             <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.875rem", minWidth: "520px" }}>
               <thead>
                 <tr style={{ backgroundColor: "var(--color-navy)" }}>
-                  {["Department / Section", "Extension", "Email"].map((h) => (
+                  {["Department / Section", "Direct Line", "Extension", "Email"].map((h) => (
                     <th
                       key={h}
                       style={{
@@ -344,6 +350,9 @@ export default function TheEmbassyPage() {
                   <tr key={dept.name} style={{ backgroundColor: i % 2 === 0 ? "white" : "var(--color-cream)" }}>
                     <td style={{ padding: "0.75rem 1rem", fontFamily: "var(--font-heading)", fontWeight: 600, color: "var(--color-navy)" }}>
                       {dept.name}
+                    </td>
+                    <td style={{ padding: "0.75rem 1rem", color: "var(--color-text-mid)", fontFamily: "var(--font-heading)", whiteSpace: "nowrap" }}>
+                      {dept.phone || "—"}
                     </td>
                     <td style={{ padding: "0.75rem 1rem", color: "var(--color-text-mid)", fontFamily: "var(--font-heading)" }}>
                       {dept.extension}

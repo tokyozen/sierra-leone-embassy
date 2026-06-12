@@ -99,13 +99,13 @@ export default function VisaServicesPage() {
             📄 Download the Sierra Leone Visa Application Form
           </p>
           <a
-            href="https://drive.google.com/drive/folders/embassy-visa-forms"
+            href="/documents/visa-application-form-2017.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
             style={{ whiteSpace: "nowrap" }}
           >
-            Open Application Form (Google Drive)
+            Download Application Form (PDF)
           </a>
         </div>
       </section>

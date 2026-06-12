@@ -40,7 +40,7 @@ const articles = [
     category: "Diplomatic Affairs",
     author: "Embassy of Sierra Leone",
     coverImage: "/images/news/news-1.jpg",
-    gallery: ["/images/news/news-2.jpg", "/images/news/news-3.jpg"],
+    gallery: ["/images/news/news-2.jpg"],
     body: [
       "His Excellency Ambassador Amara Sheikh Mohammed Sowa, Sierra Leone's new Ambassador Extraordinary and Plenipotentiary to the United States of America, formally presented his Letters of Credence to President Donald J. Trump at the White House on July 24, 2025, in a ceremony steeped in diplomatic tradition.",
       "The presentation of Letters of Credence is a formal act by which a diplomat is officially accredited to a foreign head of state. The ceremony at the White House marked Ambassador Sowa's formal commencement of his duties as Sierra Leone's top diplomat in Washington, D.C., with accreditation to the United States and nine other countries in the Americas.",
@@ -56,8 +56,8 @@ const articles = [
     date: "April 27, 2025",
     category: "National Events",
     author: "Embassy of Sierra Leone",
-    coverImage: "/images/news/news-4.jpg",
-    gallery: ["/images/news/news-5.jpg", "/images/news/news-6.jpg"],
+    coverImage: "/images/news/news-3.jpg",
+    gallery: ["/images/news/news-4.jpg"],
     body: [
       "The Embassy of the Republic of Sierra Leone in Washington, D.C. marked Sierra Leone's 64th Independence Day with a flag-raising ceremony and a reception attended by Sierra Leonean nationals, U.S. government officials, members of the diplomatic community, and friends of Sierra Leone.",
       "April 27, 1961, stands as one of the most significant dates in Sierra Leonean history — the day the country gained independence from the United Kingdom under the leadership of Prime Minister Sir Milton Margai. Each year, Sierra Leoneans at home and in the diaspora come together to celebrate this milestone with pride and renewed commitment to national unity and progress.",
@@ -73,8 +73,8 @@ const articles = [
     date: "February 12, 2025",
     category: "Trade & Investment",
     author: "Embassy of Sierra Leone",
-    coverImage: "/images/news/news-7.jpg",
-    gallery: ["/images/news/news-8.jpg", "/images/news/news-9.jpg"],
+    coverImage: "/images/news/news-5.jpg",
+    gallery: ["/images/news/news-6.jpg"],
     body: [
       "The Embassy of Sierra Leone in Washington, D.C. hosted a high-level trade and investment forum bringing together American business leaders, investors, and representatives of the Sierra Leonean government to explore opportunities for enhanced economic collaboration between the two countries.",
       "The forum, held at the Embassy's premises on 19th Street NW, featured presentations from senior officials of the Sierra Leone Investment and Export Promotion Agency (SLIEPA) and the Ministry of Trade and Industry on investment opportunities in key sectors, including mining, agriculture, tourism, fisheries, and renewable energy.",
@@ -90,8 +90,8 @@ const articles = [
     date: "January 15, 2025",
     category: "Consular Affairs",
     author: "Consular Section",
-    coverImage: "/images/news/news-10.jpg",
-    gallery: ["/images/news/news-11.jpg"],
+    coverImage: "/images/news/news-7.jpg",
+    gallery: ["/images/news/news-8.jpg"],
     body: [
       "The Consular Section of the Embassy of the Republic of Sierra Leone in Washington, D.C. wishes to bring to the attention of all Sierra Leonean nationals in the United States and other accredited countries the following updates to consular service procedures, effective immediately.",
       "Effective January 2025, the Embassy has streamlined its passport application and renewal process to reduce processing times and improve the experience for applicants. Sierra Leonean nationals are now required to submit passport applications in person or by mail to the Embassy in Washington, D.C., accompanied by all required documentation and the applicable fee.",
