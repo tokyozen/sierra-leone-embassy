@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
+import ETCTabSection from "@/components/forms/ETCTabSection";
 
 export const metadata: Metadata = {
   title: "Consular Services",
@@ -118,17 +119,7 @@ export default function ConsularServicesPage() {
               <CheckItem>Prepaid self-addressed envelope</CheckItem>
             </ul>
 
-            <div style={{ marginTop: "1.5rem" }}>
-              <a
-                href="/documents/ETC_Form.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary"
-                style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
-              >
-                📄 Download ETC Application Form (PDF)
-              </a>
-            </div>
+            <ETCTabSection />
           </SectionCard>
 
           {/* ── Section B: Authentication of Documents ── */}
