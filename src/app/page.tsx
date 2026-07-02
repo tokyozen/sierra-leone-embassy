@@ -488,7 +488,7 @@ export default function HomePage() {
             {/* Left — President photo */}
             <div style={{ position: "relative", minHeight: "380px" }}>
               <Image
-                src="/images/presidents/presidentmaadabio.jpg"
+                src="/images/presidents/H.E%20The%20President%20Of%20Sierra%20Leone%20Maada%20Bio.jpeg"
                 alt="H.E. Rtd. Brigadier Dr. Julius Maada Bio — President of the Republic of Sierra Leone"
                 fill
                 sizes="100vw"
