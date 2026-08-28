@@ -10,14 +10,16 @@ export const metadata: Metadata = {
 };
 
 
+const feeNotes = [
+  "All US Passport Holders are issued 3-year multiple entry visas for a fee of US$160.00",
+  "Official and Diplomatic Passport Holders on official duties are issued GRATIS Visas",
+  "ECOWAS passport holders are issued GRATIS visas",
+];
+
 const fees = [
-  { category: "Tourist / Visitor", single: "$100", multiple: "$150", notes: "Up to 30 days per visit" },
-  { category: "Business", single: "$100", multiple: "$150", notes: "Letter from employer required" },
-  { category: "Transit", single: "$30", multiple: "N/A", notes: "Max 72 hours, onward ticket required" },
-  { category: "Student", single: "$75", multiple: "$100", notes: "Enrollment letter required" },
-  { category: "Journalist / Media", single: "$100", multiple: "$150", notes: "Press credentials required" },
-  { category: "Diplomatic / Official", single: "Gratis", multiple: "Gratis", notes: "Diplomatic note required" },
-  { category: "Expedited Service (add-on)", single: "+$50", multiple: "+$50", notes: "2–3 business days" },
+  { category: "Canada", single: "US$75.00", multiple: "US$150.00" },
+  { category: "British", single: "US$229.00", multiple: "US$523.00" },
+  { category: "Other Nationals", single: "US$40.00", multiple: "US$80.00" },
 ];
 
 export default function VisaServicesPage() {
@@ -59,11 +61,22 @@ export default function VisaServicesPage() {
               <strong>&quot;Embassy of Sierra Leone&quot;</strong>. Cash and personal checks are not accepted.
             </p>
 
+            <div style={{ marginBottom: "1.5rem" }}>
+              {feeNotes.map((note, i) => (
+                <p
+                  key={note}
+                  style={{ color: "var(--color-text-mid)", fontSize: "0.88rem", lineHeight: 1.7, marginBottom: "0.4rem" }}
+                >
+                  <strong style={{ color: "var(--color-navy)" }}>{String.fromCharCode(65 + i)}.</strong> {note}
+                </p>
+              ))}
+            </div>
+
             <div style={{ overflowX: "auto" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.88rem", minWidth: "560px" }}>
                 <thead>
                   <tr style={{ backgroundColor: "var(--color-navy)", color: "white" }}>
-                    {["Visa Category", "Single Entry", "Multiple Entry", "Notes"].map((h) => (
+                    {["Nationality", "Six Months (Single)", "One Year (Multiple)"].map((h) => (
                       <th
                         key={h}
                         style={{
@@ -96,9 +109,6 @@ export default function VisaServicesPage() {
                       </td>
                       <td style={{ padding: "0.75rem 1rem", color: "var(--color-teal-dark)", fontWeight: 700 }}>
                         {row.multiple}
-                      </td>
-                      <td style={{ padding: "0.75rem 1rem", color: "var(--color-text-mid)" }}>
-                        {row.notes}
                       </td>
                     </tr>
                   ))}
